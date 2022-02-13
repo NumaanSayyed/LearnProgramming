@@ -1,0 +1,464 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* For Mobile Screen*/ 
+@media (orientation:landscape) and (max-width:800px) {
+  body {
+    background-color: lightgray;
+    color: black;
+    font-size: 55px;
+  }
+.header{
+  height:20vh;
+  width:auto;
+  background-color:rgba(0, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+  h1{
+    font-size: 15px;
+  }
+    .h{
+    font-size: 13px;
+    color: black;
+  }
+h4{
+  font-size: 4vh;
+  color: white;
+}
+h3{
+  font-size: 13px;
+}
+.container{
+  height:85vh;
+  width:70vw;
+  margin-left: 20vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius:10px;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size:3.3vh;
+  color: white;
+  box-shadow: 10px 10px #888888;
+}
+.media {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 20vh;
+  width: auto;
+}
+.media>a{
+  text-decoration: none; 
+}
+.media>a>i{
+  font-size: 30px;
+  height: 30px;
+  width: auto;
+  border-radius: 50%;
+  padding: 1vh;
+  margin-left:15vw;
+  color: white;
+}
+.yt{
+  height: 40vh;
+  width: auto;
+  text-align: center;
+  margin-top: 10vh;
+}
+.yt>iframe{
+  height: 38vh;
+  width:40vw;
+  margin-top: -9vh;
+  margin-left: 5vw;
+}
+#a{
+  display: inline;
+  float: right;
+  padding: 9px;
+  font-size: 30px;
+  margin-top: 4px;
+  cursor: pointer;
+  color: white;
+}
+#a>a{
+  color: white;
+}
+#b{
+  display: inline;
+  float: right;
+  padding: 9px;
+ font-size: 30px;
+ margin-top:4px;
+  cursor: pointer;
+}
+#b>a{
+  color: white;
+}
+#c{
+  display: inline;
+  float: right;
+  padding: 9px;
+ font-size: 30px;
+ margin-top:4px;
+  cursor: pointer;
+}
+#c>a{
+  color: white;
+}
+}
+
+/* For portrait mobile screen */
+
+@media (orientation:portrait) and (max-width:400px) {
+  body {
+    background-color: lightgray;
+    color: black;
+    font-size: 25px;
+  }
+.header{
+  height:10vh;
+  width:auto;
+  background-color:rgba(0, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+  h1{
+    font-size: 15px;
+  }
+  .h{
+    font-size: 13px;
+    color: black;
+  }
+h4{
+  font-size: 2vh;
+  color: white;
+}
+h3{
+  font-size: 13px;
+}
+.container{
+  height:70vh;
+  width:70vw;
+  margin: 10px 50px 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius:10px;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 12px;
+  color: white;
+  box-shadow: 10px 10px #888888;
+}
+.media {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.media>a{
+  text-decoration: none;
+  
+}
+.media>a>i{
+  font-size: 30px;
+  height: 30px;
+  width: auto;
+  border-radius: 50%;
+  padding: 1vh;
+  margin-left:10vw;
+  color: white;
+ justify-content: center;
+
+ 
+}
+.yt{
+  height: 20vh;
+  width: 20vw;
+  text-align: center;
+  margin-top: 10vh;
+}
+.yt>iframe{
+  height: 27vh;
+  width:60vw;
+  margin-top: -9vh;
+  margin-left: 20vw;
+}
+#a{
+  display: inline;
+  float: right;
+  padding: 9px;
+  font-size: 30px;
+  margin-top: 4px;
+  cursor: pointer;
+  color: white;
+}
+#a>a{
+  color: white;
+}
+#b{
+  display: inline;
+  float: right;
+  padding: 9px;
+ font-size: 30px;
+ margin-top:4px;
+  cursor: pointer;
+}
+#b>a{
+  color: white;
+}
+#c{
+  display: inline;
+  float: right;
+  padding: 9px;
+ font-size: 30px;
+ margin-top:4px;
+  cursor: pointer;
+}
+#c>a{
+  color: white;
+}
+}
+/**************************************/
+
+/* For Desktop Screen*/
+
+@media only screen and (min-width:768px) {
+  body {
+    background-color: lightgray;
+  }
+.container{
+  height:80vh;
+  width:70vw;
+  margin: 50px 150px 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius:10px;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-shadow: 1px 1px 1px white;
+  box-shadow: 10px 10px #888888;
+}
+.media>a>i{
+  font-size:50px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  padding: 10px;
+  margin-left: 150px;
+  color: white;
+  
+}
+#a{
+  display: inline;
+  float: right;
+  padding: 9px;
+  font-size: 60px;
+  margin-top: 7px;
+  cursor: pointer;
+  color: white;
+  
+}
+#a>a{
+  color: white;
+}
+
+#b{
+  display: inline;
+  float: right;
+  padding: 9px;
+ font-size: 60px;
+ margin-top:7px;
+  cursor: pointer;
+}
+#b>a{
+  color: white;
+}
+#c{
+  display: inline;
+  float: right;
+  padding: 9px;
+ font-size: 60px;
+ margin-top:7px;
+  cursor: pointer;
+}
+#c>a{
+  color: white;
+}
+b{
+  margin: 10px 10px 10px 10px;
+  color: white;
+}
+.h{
+  color: black;
+  font-size:1vh;
+}
+h4{
+  color: white;
+  font-size:3vh;
+}
+h3{
+  font-size:3vh;
+}
+.header{
+  height:9vh;
+  width:auto;
+  background-color:rgba(0, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+.media{
+  background-color: black;
+  height: 20vh;
+  width: auto;
+}
+.media>a{
+  text-decoration: none;
+}
+.media>a>i{
+  font-size: 5vh;
+  height: 30px;
+  width: auto;
+  border-radius: 50%;
+  padding: 5px;
+  margin-left:12vw;
+  color: white;
+}
+.yt{
+  height: 40vh;
+  width: auto;
+  text-align: center;
+}
+.yt>iframe{
+  height: 30vh;
+  width: 70vw;
+  margin-top:7vh;
+  margin-left: -1vw;
+}
+}
+
+
+@media only screen and (min-width:1008px)  {
+body {
+    background-color: lightgray;
+  }
+.container{
+  height:100vh;
+  width:70vw;
+  margin: 50px 150px 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius:10px;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 23px;
+  color: white;
+  text-shadow: 1px 1px 1px white;
+  box-shadow: 10px 10px #888888;
+}
+.h{
+  font-size: 3vh;
+  color: red;
+}
+.media>a>i{
+  font-size:50px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  padding: 10px;
+  margin-left: 170px;
+  color: white;
+}
+#a{
+  display: inline;
+  float: right;
+  padding: 9px;
+  font-size: 40px;
+  margin-top: 5px;
+  cursor: pointer;
+  color: white;
+  
+}
+#a>a{
+  color: white;
+}
+#b{
+  display: inline;
+  float: right;
+  padding: 9px;
+ font-size: 40px;
+ margin-top:5px;
+  cursor: pointer;
+}
+#b>a{
+  color: white;
+}
+
+#c{
+  display: inline;
+  float: right;
+  padding: 9px;
+ font-size: 40px;
+ margin-top:5px;
+  cursor: pointer;
+}
+#c>a{
+  color: white;
+}
+b{
+  margin: 10px 10px 10px 10px;
+  color: white;
+}
+.h{
+  color: black;
+  font-size:3vh;
+}
+h4{
+  color: white;
+  font-size: 2vh;
+}
+h3{
+  font-size:3vh;
+}
+.header{
+  height:20vh;
+  width:auto;
+  background-color:rgba(0, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+
+}
+
+.media>a{
+  text-decoration: none;
+}
+.media>a>i{
+  font-size: 10vh;
+  height: 30px;
+  width: auto;
+  border-radius: 50%;
+  padding: 5px;
+  margin-left:12vw;
+  color:white;
+}
+.yt{
+  height: 50vh;
+  width: auto;
+  text-align: center;
+}
+.yt>iframe{
+  height: 40vh;
+  width: 50vw;
+  margin-top:2vh;
+  margin-left: -1vw;
+}
+
+}
+

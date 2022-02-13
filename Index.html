@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Index.css">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="icon" href="https://i.postimg.cc/9f3wKpB2/imageonline-co-roundcorner.png" type="imagx-icon">
+  <title>Learn Programming</title>
+
+</head>
+
+<body>
+
+
+
+
+  <div class="heading">numan <sup>_sd</sup>🙃
+    <div id="main">
+      <button class="openbtn" onclick="openNav()">☰ Open Program's</button>
+    </div>
+  </div>
+
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+    <ul id="myMenu"> <br>
+
+      <li><a href="P1.html" target="_blank">Addition of two integers</a></li>
+      <li><a href="p2.html" target="_blank">Subtraction of two integers</a></li>
+      <li><a href="p3.html" target="_blank">Multipication of two integers</a></li>
+      <li><a href="p4.html" target="_blank">Division of two integers</a></li>
+      <li><a href="fact.html" target="_blank">Factorial of a number</a></li>
+      <li><a href="Number.html" target="_blank">Decimal value in another Number Systems.</a></li>
+      <li><a href="table.html" target="_blank">Table of a number</a></li>
+      <li><a href="pattern.html" target="_blank">Printing a Star Pattern.</a></li>
+      <li><a href="prime.html" target="_blank">Number is Even or Odd </a></li>
+      <li><a href="Ascii.html" target="_blank">Ascii Value </a></li>
+      <li><a href="greater.html" target="_blank">Greater number among three values</a></li>
+      <li><a href="swap.html" target="_blank">Swapping Number's</a></li>
+      <li><a href="pos.html" target="_blank">Number is Positive Or Negative</a></li>
+      <li><a href="fib.html" target="_blank">Printing Fibonacci Series.</a></li>
+
+      <li><a href="Cal.html" target="_blank">Making a Calculator</a></li>
+    </ul>
+
+  </div>
+
+
+  <div class="r">
+    <a href="https://www.youtube.com/channel/UCETVQR6DlC5G8nAP2ieMiiQ" target="_blank"><img
+        src="https://i.postimg.cc/2yQhgp13/IMG-20220207-154918.jpg" alt="can't reload"></a>
+  </div>
+
+  <div class="numan">
+
+
+    I made this website specially for beginner's.You can learn better from here.I have imported lot's of programs
+    using java.You can see the program with the explanation in your understanding language in which you want to
+    understand.As well as you can run and compile the programs, I have imported one compiler and in the compiler, I have
+    already written the program,You don't have need to copy the program and compile program on another platform.You just
+    have to execute the program and you will get the right output.YouTube video's are also available you can check out!
+    If you have any suggestions, please let me know. Your suggestions are highly appreciated.Thank you!
+  </div>
+
+
+  <div class="foot-media">
+
+    <a href="https://www.instagram.com/_numan_sd/" id="a" target="_blank">
+      <i class='bx bxl-instagram'></i>
+    </a>
+
+    <a href="https://twitter.com/numansayyed53" id="b" target="_blank">
+      <i class='bx bxl-twitter'></i>
+    </a>
+
+    <a href="https://www.messenger.com/t/100031458421775/" id="c" target="_blank">
+      <i class='bx bxl-messenger'></i></a>
+
+    <a href="https://github.com/NumaanSayyed" id="d" target="_blank">
+      <i class='bx bxl-github'></i></a>
+    <br>
+    <div class="vs"> Copyright &copy; 2022 https://github.com/NumaanSayyed</div>
+
+  </div>
+
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+    }
+  </script>
+
+  <script>
+    function myFunction() {
+      var input, filter, ul, li, a, i;
+      input = document.getElementById("mySearch");
+      filter = input.value.toUpperCase();
+      ul = document.getElementById("myMenu");
+      li = ul.getElementsByTagName("li");
+      for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+          li[i].style.display = "";
+        } else {
+          li[i].style.display = "none";
+        }
+      }
+    }
+  </script>
+
+
+</body>
+
+</html>
